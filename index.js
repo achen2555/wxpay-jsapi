@@ -1,5 +1,6 @@
 var Promise = require('bluebird');
 var co = require('co');
+var Q = require('q');
 var request = Promise.promisifyAll(require("request"));
 var crypto = require('crypto');
 var ejs = require('ejs');
